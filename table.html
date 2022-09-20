@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+    </head>
+    <body>
+    <p><b><u><h2>HTML Table:</h2></u></b></p>
+    <p>HTML tables allow web developers to arrange data into <br>rows and columns.</p>
+    <p><h3>Example:</h3>
+        <div style="background: ghostwhite;
+        font-size: 15px;
+        padding: 1px;
+        border: 1px solid lightgray;
+        margin: 1px;">
+        <table border="1">
+            <tr>
+                <th colspan="2">Days in a week</th>
+            </tr>
+            <tr>
+                <td rowspan="5">Weekdays</td>
+                <td>Monday</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+            </tr>
+             <tr>
+                 <td>Wednesday</td>
+             </tr>
+             <tr>
+                 <td>Thursday</td>
+             </tr>
+              <tr>
+                  <td>Friday</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">Weekends</td>
+                  <td>Saturday</td>
+              </tr>
+              <tr>
+                  <td>Sunday</td>
+              </tr>
+          </table>        
+        </div>
+    </p>
+    <p>A table in HTML consists of table cells inside rows and columns.</p>
+    <p><h3><u>Table Cells</u></h3></p>
+    <p>Each table cell is defined by a &lt;td&gt; and a &lt;/td&gt; tag. td stands for table data.
+        <br>Everything between &lt;td&gt; and &lt;/td&gt; are the content of the table cell.</p>
+    <p><h3><u>Table Rows</u></h3></p>
+     <p>Each table row starts with a &lt;tr&gt; and ends with a &lt;/tr&gt; tag.<br>tr stands for table row.</p>
+     <p><h3><u>Table Headers</u></h3></p>
+     <p>Sometimes we want our cells to be table header cells. In those cases 
+        <br>we should use the &lt;th&gt; tag instead of the &lt;td&gt; tag.<br>
+    th stands for table header.</p>
+    <p><h3>Example:</h3>
+        <div style="background: ghostwhite;
+        font-size: 15px;
+        padding: 1px;
+        border: 1px solid lightgray;
+        margin: 1px;">
+        <p>&lt;table&gt;
+            <br>&lt;tr&gt;
+            <br>&lt;th&gt;Person 1 &lt;/th&gt;
+            <br>&lt;th&gt;Person 2 &lt;/th&gt;
+            <br>&lt;th&gt;Person 3 &lt;/th&gt;
+           <br>&lt;/tr&gt;
+           <br>&lt;tr&gt;
+            <br>&lt;td&gt;A &lt;/td&gt;
+            <br>&lt;td&gt;B &lt;/td&gt;
+            <br>&lt;td&gt;C &lt;/td&gt;
+           <br>&lt;/tr&gt;
+           <br>&lt;tr&gt;
+           <br>&lt;td&gt;16&lt;/td&gt;
+           <br>&lt;td&gt;18&lt;/td&gt;
+           <br>&lt;td&gt;20&lt;/td&gt;
+           <br>&lt;/tr&gt;
+           <br>&lt;table&gt;
+        </p>
+        </div>
+    </p>
+    <p><h3>Output:</h3>
+        <div style="background: ghostwhite;
+        font-size: 15px;
+        padding: 1px;
+        border: 1px solid lightgray;
+        margin: 1px;">
+        <table border="1">
+            <tr>
+                <th>Person 1</th>
+                <th>Person 2</th>
+                <th>Person 3</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>18</td>
+                <td>20</td>
+            </tr>
+        </table>
+        </div>
+    </p>
+</body>
+</html>
